@@ -1,0 +1,29 @@
+
+
+Čo to je 
+
+Tento skript pre FiveM zobrazuje UI panel, ktorý ukazuje, či sa hráč nachádza v `green`, `red` alebo `event` zóne.
+
+- `client.lua` — detekcia hráča v zóne a posielanie správ do NUI.
+- `config.lua` — definovanie súradníc a polomerov zón.
+- `fxmanifest.lua` — FiveM resource manifest.
+- `html/index.html` — NUI HTML šablóna pre panel.
+- `html/style.css` — štýly pre vzhľad panelu.
+- `html/ui.js` — spracovanie správ a zobrazenie správnej zóny.
+
+
+EN
+
+What it is
+
+This FiveM script shows a UI overlay indicating if the player is inside a `green`, `red`, or `event` zone.
+
+- `client.lua` — detects the player in a zone and sends messages to NUI.
+- `config.lua` — defines zone coordinates and radii.
+- `fxmanifest.lua` — FiveM resource manifest.
+- `html/index.html` — NUI overlay HTML.
+- `html/style.css` — overlay styling.
+- `html/ui.js` — processes messages and shows the correct zone.
+
+
+
